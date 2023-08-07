@@ -1,0 +1,40 @@
+body{
+    font-size: 100px;
+    background-color: wheat;
+}
+
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    border-bottom: 10px solid rgb(74, 67, 59);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+main{
+    background-color: rgb(255, 211, 211);
+    width: 1000px;
+    position: relative;
+    left: 400px;
+}
+
+.button-accent{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 12px;
+    height: 100px;
+    width: 250px;
+    left: 100px;
+    background-color: rgb(197, 228, 254);
+}
+
+.button-accent:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+}
