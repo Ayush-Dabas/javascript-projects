@@ -9,14 +9,14 @@
   <body>
     <header>Stop Watch in JS</header>
     <main>
-      <section id="time">
-        <p id="min">00</p>
-        <p id="temp">:</p>
-        <p id="sec">00</p>
-      </section>
-      <button class="button-accent" onclick="start()">Start</button>
-      <button class="button-accent" onclick="stop()">Stop</button>
-      <button class="button-accent" onclick="reset()">Reset</button>
+      <p id="time">
+        <span id="sec">00</span>
+        :
+        <span id="milsec">00</span>
+      </p>
+      <button class="button-accent" id="start">Start</button>
+      <button class="button-accent" id="stop">Stop</button>
+      <button class="button-accent" id="reset">Reset</button>
       <script src="app.js"></script>
     </main>
   </body>
