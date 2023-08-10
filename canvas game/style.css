@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#canvas{
+    background-color: black;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player{
+    background-color: yellow;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
